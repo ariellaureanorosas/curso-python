@@ -1,8 +1,20 @@
-# Operador lógico "not"
-# Usado para inverter expressões
-# not True = False
-# not False = True
+# Operadores lógicos
 
-senha = input('Senha: ')
-if not senha:
-    print('Você não digitou nada!')
+# and (e) or (ou) not (não)
+# or - Qualquer condição verdadeira avalia toda a expressão como verdadeira.
+# Se qualquer valor for considerado verdadeiro, a expressão inteira será avaliada naquele valor.
+# São considerados falsy (que vc já viu)  0 0.0 '' False
+# Também existe o tipo None que é usado para representar um não valor
+
+entrada = input('[E]-Entrar [S]-Sair: ')
+senha_digitada = input('Senha: ')
+
+senha_permitida = '1234'
+if entrada == "E" or senha_digitada == senha_permitida:
+    print('Entrar')
+else:
+    print('Sair')
+
+# Avaliação de curto circuito
+senha = input('Senha: ') or 'Sem senha'
+print(senha)

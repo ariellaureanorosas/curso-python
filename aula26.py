@@ -1,17 +1,25 @@
 """
-Fatiamento de strings
+Formatação básica de strings
 
-012345678
-Olá mundo
--987654321
-
-Fatiamento [i:f:p] [::]
-
-Obs.: a função len retorna a qtd de caracteres da str
+s - string
+d - int
+f - float
+.<número de dígitos>f
+x ou X - Hexadecimal
+(Caractere)(><^)(quantidade)
+> - Esquerda
+< - Direita
+^ - Centro
+= - Força o número a aparecer antes dos zeros
+Sinal - + ou -
+Ex.: 0>-100,.1f
+Conversão flags - !r !s !a
 """
 
-variavel = 'Olá mundo'
-print(variavel[4::2])
-print(variavel[-8:-2:1])
-print(len(variavel))
-print(variavel[0:len(variavel):1])
+variavel = 'ABC'
+print(f'{variavel}')
+print(f'{variavel: >10}')
+print(f'{variavel: <10}')
+print(f'{variavel: ^10}')
+print(f'{variavel: >10}')
+print(f'{10000.123018974908:0=+10,.1f}')

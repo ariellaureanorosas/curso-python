@@ -1,11 +1,19 @@
-# Interpolação básica de strings
-# s - string
-# d e i - int
-# f - float
-# x e X- Hexadecimal (ABCDEF0123456789)
+# Operadores in e not in
+# Strings são iteráveis
+#  0 1 2 3 4 
+#  A r i e l
+# -5-4-3-2-1
 
-nome = 'Ariel'
-preco = 1000.12398712
-variavel = '%s, o preço é R$%.2f' % (nome, preco)
-print(variavel)
-print('O hexadecimal de %d é %08X' % (15123, 15123))
+# nome = 'Ariel'
+# print(nome[2])
+# print(nome[-2])
+# print('w' in nome)
+# print('w' not in nome)
+
+nome = input('Insira seu nome: ')
+encontrar = input('digite o que você quer procurar: ')
+
+if encontrar in nome:
+    print(f'{encontrar} está em {nome}')
+else:
+    print(f'{encontrar} não está em {nome}')

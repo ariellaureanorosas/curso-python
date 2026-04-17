@@ -1,21 +1,9 @@
-# Operadores lógicos
+primeiro_valor = input('Digite um valor: ')
+segundo_valor = input('digite outro valor: ')
 
-# and (e) or (ou) not (não)
-# and - Todas as condições precisam ser verdadeiras.
-# Se qualquer valor for considerado falso, a expressão inteira será avaliada naquele valor
-# São considerados falsy (que vc já viu) 0 0.0 '' False
-# Também existe o tipo None que é
-# usado para representar um não valor
-
-entrada = input('[E]-Entrar [S]-Sair: ')
-senha_digitada = input('Senha: ')
-
-senha_permitida = '1234'
-if entrada == "E" and senha_digitada == senha_permitida:
-    print('Entrar')
+if primeiro_valor == segundo_valor:
+    print('os valores são iguais')
+elif primeiro_valor > segundo_valor:
+    print(f'o primeiro valor: {primeiro_valor} é maior que o segundo valor: {segundo_valor}')
 else:
-    print('Sair')
-
-# Avaliação de curto circuito
-print(True and False and True)
-print(True and 0 and True)
+    print(f'o segundo valor: {segundo_valor} é maior que o primeiro valor: {primeiro_valor}')
