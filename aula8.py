@@ -2,7 +2,7 @@ nome = 'Ariel'
 sobrenome = 'Laureano Rosas'
 idade = 19
 ano_nascimento = 2026 - idade
-maior_idade = ano_nascimento > 18
+maior_idade = ano_nascimento >= 18
 altura = 1.80
 
 print('nome:', nome)
