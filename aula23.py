@@ -3,6 +3,6 @@
 # not True = False
 # not False = True
 
-senha = input('Senha: ')
+senha = input("Senha: ")
 if not senha:
-    print('Você não digitou nada!')
+    print("Você não digitou nada!")

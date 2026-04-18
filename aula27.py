@@ -10,8 +10,8 @@ Fatiamento [i:f:p] [::]
 Obs.: a função len retorna a qtd de caracteres da str
 """
 
-variavel = 'Olá mundo'
+variavel = "Olá mundo"
 print(variavel[4::2])
 print(variavel[-8:-2:1])
 print(len(variavel))
-print(variavel[0:len(variavel):1])
+print(variavel[0 : len(variavel) : 1])

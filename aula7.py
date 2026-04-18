@@ -7,8 +7,8 @@
 # soma = 2+2
 # print(nome_completo, soma)
 
-nome = 'Ariel'
+nome = "Ariel"
 idade = 18
-maior_de_idade = idade>=18
-print('nome:', nome, 'idade:', idade)
-print('é maior de idade?', maior_de_idade)
+maior_de_idade = idade >= 18
+print("nome:", nome, "idade:", idade)
+print("é maior de idade?", maior_de_idade)

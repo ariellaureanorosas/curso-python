@@ -29,7 +29,7 @@ menos escreva "Seu nome é curto"; se tiver entre 5 e 6 letras, escreva
 #     print('Número digitado incorretamente')
 
 
-#EXERCÍCIO 2:
+# EXERCÍCIO 2:
 
 # hora = input('Que horas são: ')
 
@@ -45,16 +45,15 @@ menos escreva "Seu nome é curto"; se tiver entre 5 e 6 letras, escreva
 # except:
 #      print('Insira uma hora válida!')
 
-#EXERCÍCIO 3:
+# EXERCÍCIO 3:
 
-nome_usuario = input('Insira seu nome: ')
+nome_usuario = input("Insira seu nome: ")
 try:
     if len(nome_usuario) <= 4:
-        print('Seu nome è muito curto')
+        print("Seu nome è muito curto")
     elif 5 <= len(nome_usuario) <= 6:
-        print('Seu nome é normal')
+        print("Seu nome é normal")
     else:
-        print('Seu nome é muito grande')
-except: 
-    print('Digite um nome corretamente')
-
+        print("Seu nome é muito grande")
+except:
+    print("Digite um nome corretamente")

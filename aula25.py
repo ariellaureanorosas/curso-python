@@ -4,8 +4,8 @@
 # f - float
 # x e X- Hexadecimal (ABCDEF0123456789)
 
-nome = 'Ariel'
+nome = "Ariel"
 preco = 1000.12398712
-variavel = '%s, o preço é R$%.2f' % (nome, preco)
+variavel = "%s, o preço é R$%.2f" % (nome, preco)
 print(variavel)
-print('O hexadecimal de %d é %08X' % (15123, 15123))
+print("O hexadecimal de %d é %08X" % (15123, 15123))

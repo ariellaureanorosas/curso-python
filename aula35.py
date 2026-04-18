@@ -5,11 +5,10 @@ Executa uma ação enquanto uma condição for verdadeira
 Loop infinito -> Quando um código não tem fim
 """
 
-condicao = True
-while condicao:
-    nome = input("Insira seu nome: ")
-    print(nome)
-    if nome == "sair":
-        break
+contador = 0
 
-print("Sair")
+while contador <= 10:
+    print(contador)
+    contador = contador + 1
+
+print("Acabou")

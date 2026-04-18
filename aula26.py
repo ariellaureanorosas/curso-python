@@ -16,10 +16,10 @@ Ex.: 0>-100,.1f
 Conversão flags - !r !s !a
 """
 
-variavel = 'ABC'
-print(f'{variavel}')
-print(f'{variavel: >10}')
-print(f'{variavel: <10}')
-print(f'{variavel: ^10}')
-print(f'{variavel: >10}')
-print(f'{10000.123018974908:0=+10,.1f}')
+variavel = "ABC"
+print(f"{variavel}")
+print(f"{variavel: >10}")
+print(f"{variavel: <10}")
+print(f"{variavel: ^10}")
+print(f"{variavel: >10}")
+print(f"{10000.123018974908:0=+10,.1f}")

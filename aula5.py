@@ -5,7 +5,7 @@
 # Dentre eles o ==, que é um operador lógico que Questiona se um valor é igual ao outro
 # Questiona se um valor é igual a outro
 
-print(10 == 10) # Sim -> True (Verdadeiro)
-print(10 == 11) # Não -> False (Falso)
+print(10 == 10)  # Sim -> True (Verdadeiro)
+print(10 == 11)  # Não -> False (Falso)
 print(type(10 == 10))
 print(type(10 == 11))

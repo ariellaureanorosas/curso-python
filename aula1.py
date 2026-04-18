@@ -1,4 +1,4 @@
-print('Hello word!')
+print("Hello word!")
 # comentário simples
 
 """
@@ -7,8 +7,8 @@ com
 linhas
 """
 
-'''
+"""
 comentário 
 com 
 linhas
-'''
+"""

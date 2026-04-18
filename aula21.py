@@ -7,14 +7,14 @@
 # Também existe o tipo None que é
 # usado para representar um não valor
 
-entrada = input('[E]-Entrar [S]-Sair: ')
-senha_digitada = input('Senha: ')
+entrada = input("[E]-Entrar [S]-Sair: ")
+senha_digitada = input("Senha: ")
 
-senha_permitida = '1234'
+senha_permitida = "1234"
 if entrada == "E" and senha_digitada == senha_permitida:
-    print('Entrar')
+    print("Entrar")
 else:
-    print('Sair')
+    print("Sair")
 
 # Avaliação de curto circuito
 print(True and False and True)

@@ -6,15 +6,15 @@
 # São considerados falsy (que vc já viu)  0 0.0 '' False
 # Também existe o tipo None que é usado para representar um não valor
 
-entrada = input('[E]-Entrar [S]-Sair: ')
-senha_digitada = input('Senha: ')
+entrada = input("[E]-Entrar [S]-Sair: ")
+senha_digitada = input("Senha: ")
 
-senha_permitida = '1234'
+senha_permitida = "1234"
 if entrada == "E" or senha_digitada == senha_permitida:
-    print('Entrar')
+    print("Entrar")
 else:
-    print('Sair')
+    print("Sair")
 
 # Avaliação de curto circuito
-senha = input('Senha: ') or 'Sem senha'
+senha = input("Senha: ") or "Sem senha"
 print(senha)
