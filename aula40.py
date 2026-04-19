@@ -7,6 +7,8 @@ while True:
 
     # ------------------CHECAGEM DOS NÚMEROS------------------#
     numeros_validos = None
+    num_1_float = 0
+    num_2_float = 0
     try:
         num_1_float = float(numero_1)
         num_2_float = float(numero_2)
@@ -29,7 +31,7 @@ while True:
         print("Digite apenas um operador.")
         continue
 
-    # -------------------OPERAÇÃO---------------------------#
+    # --------------------OPERAÇÃO--------------------------#
     if operador == "+":
         print(
             f"O resultado entre {numero_1} e {numero_2} é {num_1_float + num_2_float}"
