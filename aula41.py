@@ -9,4 +9,5 @@ while i < len(string):
     print(letra)
     i += 1
 else:
-    print("")
+    print("O Else foi executado")
+print("Fora do While")
