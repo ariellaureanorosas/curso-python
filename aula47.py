@@ -44,6 +44,7 @@ lista_de_nomes = [
 palavra_secreta = random.choice(lista_de_nomes).lower()
 tentativas = 0
 letras_acertadas = ""
+quantidade_de_acertos = 0
 
 while True:
 
@@ -58,19 +59,24 @@ while True:
         letras_acertadas += letra_digitada
 
     palavra_formada = ""
-    for letras in palavra_secreta:
-        if letras in letras_acertadas:
-            palavra_formada += letras
+    quantidade_de_acertos = 0
+    for letra in palavra_secreta:
+        if letra in letras_acertadas:
+            palavra_formada += letra
+            quantidade_de_acertos += 1
         else:
             palavra_formada += "*"
 
-    print("Palavra Formada:", palavra_formada)
+    print(
+        f"Palavra Formada: {palavra_formada} | quantidade de acertos: {quantidade_de_acertos}"
+    )
+    print("------------------------------------")
 
     if palavra_formada == palavra_secreta:
-        print("Você Acertou!")
-        print("numeros de tentativas:", tentativas)
-
         while True:
+            print(f"Você Acertou!, a palavra certa era: {palavra_secreta}".upper())
+            print(f"numeros de tentativas: {tentativas}".upper())
+            print("------------------------------------")
             opcao_saida = input("você deseja sair? [S] ou [N]: ").lower()
             if len(opcao_saida) > 1:
                 print("Digite apenas um valor")
@@ -88,3 +94,4 @@ while True:
         tentativas = 0
         letras_acertadas = ""
         palavra_secreta = random.choice(lista_de_nomes).lower
+        quantidade_de_acertos = 0
