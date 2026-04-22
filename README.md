@@ -24,12 +24,12 @@ O curso aborda desde os conceitos fundamentais até tópicos avançados, incluin
 
 ## 🗺️ Roadmap de Estudos
 
-| Fase | Conteúdo | Status |
-|:----:|:---------|:------:|
-| 🔰 **Básico** | Variáveis, operadores, estruturas de controle, entrada/saída | ⏳ |
-| ⚡ **Intermediário** | Funções, repetições, list comprehensions, módulos | ⏳ |
-| 🚀 **Avançado** | POO, Design Patterns, decorators, generators | ⏳ |
-| 🎁 **Bônus** | Django, PySide6, Selenium, SQL, Regex, HTML/CSS | ⏳ |
+|         Fase         | Conteúdo                                                     | Status |
+| :------------------: | :----------------------------------------------------------- | :----: |
+|    🔰 **Básico**     | Variáveis, operadores, estruturas de controle, entrada/saída |   ✅   |
+| ⚡ **Intermediário** | Funções, repetições, list comprehensions, módulos            |   ⏳   |
+|   🚀 **Avançado**    | POO, Design Patterns, decorators, generators                 |   ⏳   |
+|     🎁 **Bônus**     | Django, PySide6, Selenium, SQL, Regex, HTML/CSS              |   ⏳   |
 
 ---
 
@@ -43,12 +43,12 @@ O curso aborda desde os conceitos fundamentais até tópicos avançados, incluin
 - **Pytest** - Testes automatizados
 - **Expressões Regulares** - Regex
 
-
 ---
 
 ## 📝 Exercícios e Anotações
 
 Cada pasta contém:
+
 - Códigos das aulas
 - Exercícios resolvidos
 - Anotações pessoais
@@ -72,6 +72,6 @@ python nome_do_arquivo.py
 
 <div align="center">
 
-*Estudos em andamento* 🚧
+_Estudos em andamento_ 🚧
 
 </div>
