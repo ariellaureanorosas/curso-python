@@ -81,7 +81,7 @@ for pergunta in perguntas:
                 break
             else:
                 print("Alternativa Inválida, por Favor digite novamente")
-        except:
+        except ValueError:
             os.system("cls" if os.name == "nt" else "clear")
             print("Entrada de dados inválida, digite corretamente por favor")
             print()  # pula uma linha
