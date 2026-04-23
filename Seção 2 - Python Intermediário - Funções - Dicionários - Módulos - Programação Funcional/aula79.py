@@ -44,9 +44,11 @@ for pergunta in perguntas:
     if acertou:
         print()  # pula uma linha
         print("Acertou")
+        print()  # pula uma linha
         qtd_acertos += 1
     else:
         print()  # pula uma linha
         print("Errou")
+        print()  # pula uma linha
 
-print("QUANTIDADE DE ACERTOS:", qtd_acertos)
+print("QUANTIDADE DE ACERTOS:", qtd_acertos, "DE:", len(perguntas))
