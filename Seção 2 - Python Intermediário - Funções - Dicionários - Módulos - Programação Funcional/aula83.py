@@ -29,3 +29,10 @@ def iterar_lista(lista):
     for item in lista:
         print(item)
     print("-" * 30)
+
+
+lista.sort(key=lambda item: item["nome"])  # altera a ordem da lista
+lista_nova = sorted(lista, key=lambda item: item["sobrenome"])  # retorna uma copia rasa
+
+iterar_lista(lista)
+iterar_lista(lista_nova)
