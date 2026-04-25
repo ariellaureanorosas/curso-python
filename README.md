@@ -8,7 +8,7 @@
 
 **Repositório de estudos do curso de Python do Luiz Otávio Miranda**
 
-[Ver Curso Original](https://www.udemy.com/course/python-3-do-basico-ao-avancado/)
+[Ver Curso Original](https://www.udemy.com/course/python-3-do-zero-ao-avancado/)
 
 </div>
 
@@ -66,7 +66,7 @@ python nome_do_arquivo.py
 
 ## 📫 Contato
 
-- **Curso original**: [Luiz Otávio Miranda](https://www.udemy.com/course/python-3-do-basico-ao-avancado/)
+- **Curso original**: [Luiz Otávio Miranda](https://www.udemy.com/course/python-3-do-zero-ao-avancado/)
 
 ---
 
