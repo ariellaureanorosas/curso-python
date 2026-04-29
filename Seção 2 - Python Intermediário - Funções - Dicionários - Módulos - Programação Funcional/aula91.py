@@ -4,7 +4,7 @@ string = "Ariel"
 metodo = "upper"
 
 
-if hasattr(string, "upper"):
+if hasattr(string, metodo):
     print("existe upper")
     print(getattr(string, metodo)())
 else:
