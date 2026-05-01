@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Python](https://img.shields.io/badge/python-3.11%20|%203.12-blue?style=for-the-badge&logo=python&logoColor=white)
+![Python](https://img.shields.io/badge/python-3.14%20-blue?style=for-the-badge&logo=python&logoColor=white)
 ![Status](https://img.shields.io/badge/status-Em%20andamento-yellow?style=flat-square)
 ![Aulas](https://img.shields.io/badge/aulas-745%2B-purple?style=flat-square)
 
