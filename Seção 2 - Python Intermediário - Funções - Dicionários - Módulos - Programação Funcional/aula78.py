@@ -23,7 +23,7 @@ d1 = {"c1": 1, "c2": 2, "l1": [1, 2, 3]}
 # pessoa.setdefault("idade", None)
 # print(pessoa["idade"])
 # d2 = d1.copy() -> shallow copy (cópia rasa)
-# d2 = copy.deepcopycopy(d1) -> deep copy (cópia profunda)
+# d2 = copy.deepcopy(d1) -> deep copy (cópia profunda)
 # print(pessoa.get("idade", None))
 # nome = pessoa.pop("nome")
 # ultima_chave = pessoa.popitem()
